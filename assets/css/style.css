@@ -1,15 +1,35 @@
 header {
+    position:absolute;
     display: block;
-    background-size: 300px 100px;
-    padding-top: 100px;
+    width:960px;
+    height:95px;
+    padding-top: 50px;
+    padding-left: 400px;
+    border-bottom: 1px solid gray;
+    z-index: -1;
 }
 
 .headerbutton {
-    padding-left: 1350px;
+    position: relative;
+        padding-left: 600px;
+        padding-bottom: 150px;
+        word-spacing: 25px;
 }
-
+#namebox {
+    position: relative;
+    background-color: #4aaaa5;
+    width: 220px;
+    height: 40px;
+    z-index: -1;
+    padding-bottom: 50px;
+}
 .nametitle {
-    background-size: 50px 50px;
-    padding-left: 300px;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    text-decoration: underline;
 
+    
 }
