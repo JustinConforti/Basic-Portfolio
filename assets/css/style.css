@@ -1,0 +1,15 @@
+header {
+    display: block;
+    background-size: 300px 100px;
+    padding-top: 100px;
+}
+
+.headerbutton {
+    padding-left: 1350px;
+}
+
+.nametitle {
+    background-size: 50px 50px;
+    padding-left: 300px;
+
+}
